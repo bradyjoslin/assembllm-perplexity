@@ -34,28 +34,28 @@ struct Model {
 
 static MODELS: [Model; 6] = [
     Model {
-        name: "llama-3-sonar-small-32k-online",
-        aliases: ["llam3-sso"],
+        name: "llama-3.1-sonar-small-128k-online",
+        aliases: ["ss-online"],
     },
     Model {
-        name: "llama-3-sonar-small-32k-chat",
-        aliases: ["llama3-ss"],
+        name: "llama-3.1-sonar-small-128k-chat",
+        aliases: ["ss-chat"],
     },
     Model {
-        name: "llama-3-sonar-large-32k-chat",
-        aliases: ["llam3-sl"],
+        name: "llama-3.1-sonar-large-128k-online",
+        aliases: ["sl-online"],
     },
     Model {
-        name: "llama-3-sonar-large-32k-online",
-        aliases: ["llam3-slo"],
+        name: "llama-3.1-sonar-large-128k-chat",
+        aliases: ["sl-chat"],
     },
     Model {
-        name: "llama-3-8b-instruct",
-        aliases: ["llam3-8bi"],
+        name: "llama-3.1-8b-instruct",
+        aliases: ["8b-instruct"],
     },
     Model {
-        name: "llama-3-70b-instruct",
-        aliases: ["llam3-70bi"],
+        name: "llama-3.1-70b-instruct",
+        aliases: ["70b-instruct"],
     },
 ];
 
